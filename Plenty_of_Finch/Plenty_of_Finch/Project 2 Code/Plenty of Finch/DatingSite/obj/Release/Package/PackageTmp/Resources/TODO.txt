@@ -1,2 +1,0 @@
-﻿change datatypes to varchar and adjust things that require max characters 
-to ensure they really need them.
