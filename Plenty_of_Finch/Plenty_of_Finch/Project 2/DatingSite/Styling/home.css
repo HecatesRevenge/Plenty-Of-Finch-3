@@ -1,0 +1,103 @@
+﻿
+:root {
+    --koi-white: #e0f2f1;
+    --koi-orange: #ff5722;
+    --koi-black: #1a1a1a;
+    --pond-water: #0b3d49;
+    --pond-light: #e0f2f1;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: var(--koi-white);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url('../Images/pond_background.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: var(--night-sky);
+
+    h1 {
+        color: var(--koi-white);
+        margin-bottom: 25px;
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: 1px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    .project-card {
+        background-color: var(--pond-water);
+        border-top: 6px solid var(--koi-orange);
+        border-radius: 12px;
+        padding: 40px;
+        max-width: 650px;
+        width: 100%;
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+        text-align: center;
+    }
+
+        .project-card h2 {
+            margin-top: 0;
+        }
+
+            .project-card h2 a {
+                color: var(--koi-white);
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 1.8rem;
+                transition: color 0.3s ease, text-shadow 0.3s ease;
+            }
+
+                .project-card h2 a:hover {
+                    color: var(--koi-orange);
+                    text-shadow: 0 0 10px rgba(255, 87, 34, 0.4);
+                }
+
+    .project-description {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        margin-top: 25px;
+        color: var(--text-muted);
+        text-align: left;
+
+        .project-description strong {
+            color: var(--koi-white);
+            font-size: 1.2rem;
+        }
+
+        .placeholder-box {
+            background-color: rgba(0, 0, 0, 0.25);
+            border: 2px dashed var(--koi-orange);
+            color: var(--koi-orange);
+            font-weight: bold;
+            height: 250px;
+            width: 100%;
+            max-width: 400px;
+            margin: 30px auto 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            letter-spacing: 0.5px;
+        }
+
+
+        project-image {
+            max-width: 400px; 
+            width: 100%; 
+            height: auto;
+            display: block; 
+            margin: 30px auto 0 auto;
+            border-radius: 8px;
+            border: 3px solid var(--koi-orange);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+    }
+}
