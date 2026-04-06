@@ -7,7 +7,7 @@ namespace DatingSite
     public class Validation
     {
         public string RegistrationValidation(string firstName, string lastName, string age, string gender,
-            string email, string city, string state, string username, string password)
+            string email, string city, string state, string username, string password, string zipCode, string username1)
         {
 
             if (string.IsNullOrWhiteSpace(firstName))
@@ -63,6 +63,11 @@ namespace DatingSite
                 return "Password required";
             }
             return "";
+        }
+
+        internal string RegistrationValidation(string firstName, string lastName, string age, string gender, string email, string phone, string address, string city, string state, string zipCode, string username, string password)
+        {
+            throw new NotImplementedException();
         }
     }
 }

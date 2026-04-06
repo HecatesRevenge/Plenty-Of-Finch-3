@@ -1,0 +1,21 @@
+﻿
+Razor View Code
+
+@model RegisterViewModel
+    notice how the div class=mb-3 is the same as the aspx format. 
+div class="mb-3">
+                                                  //same here at the color it matches the aspx
+    <label asp-for="FirstName" class="form-label" style="color: #f8fafc;">First Name</label>
+    <input asp-for="FirstName" class="form-control" />
+</div>
+
+
+//bootstrap class
+ <div class="mb-3">  
+                       <label for="txtFirstName" class="form-label" style="color: #f8fafc;">First Name</label>
+                            <asp:TextBox ID="txtFirstName" runat="server" CssClass="form-control"></asp:TextBox>
+                        </div>
+                        <div class="mb-3"
+                            <label for="txtLastName" class="form-label" style="color: #f8fafc;">Last Name</label>
+                            <asp:TextBox ID="txtLastName" runat="server" CssClass="form-control"></asp:TextBox>
+                        </div>
