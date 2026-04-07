@@ -1,0 +1,9 @@
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\Plenty_of_Finch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\Plenty_of_Finch.AssemblyInfoInputs.cache
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\Plenty_of_Finch.AssemblyInfo.cs
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\Plenty_of_Finch.csproj.CoreCompileInputs.cache
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\Plenty_of_Finch.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\Plenty_of_Finch.RazorAssemblyInfo.cache
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\Plenty_of_Finch.RazorAssemblyInfo.cs
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\Plenty_of_Finch.sourcelink.json

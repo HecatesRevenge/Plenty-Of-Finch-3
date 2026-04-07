@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Controllers\Account\" />
-    <Folder Include="Project 2\" />
   </ItemGroup>
 
 </Project>
