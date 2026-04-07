@@ -11,7 +11,7 @@
         private string address;
         private string city;
         private string state;
-        private string zipCode;
+        private string zip;
         private string username;
         private string password;
         private string errorMessage;
@@ -24,12 +24,12 @@
             lastName = "";
             age = "";
             gender = "";
-            email = "";
             phone = "";
+            email = "";
             address = "";
             city = "";
             state = "";
-            zipCode = "";
+            zip = "";
             username = "";
             password = "";
             errorMessage = "";
@@ -92,8 +92,8 @@
 
         public string ZipCode
         {
-            get { return zipCode; }
-            set { zipCode = value; }
+            get { return zip; }
+            set { zip = value; }
 
         }
 

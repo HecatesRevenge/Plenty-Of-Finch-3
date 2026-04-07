@@ -1,4 +1,4 @@
-﻿using DatingSite;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Plenty_of_Finch.Models;
 
@@ -25,13 +25,12 @@ namespace Plenty_of_Finch.Controllers
                 model.Age,
                 model.Gender,
                 model.Email,
+                model.City,
                 model.Phone,
                 model.Address,
                 model.City,
                 model.State,
-                model.ZipCode,
-                model.Username,
-                model.Password
+                model.ZipCode
                 );
 
             if (errorMessage != "")

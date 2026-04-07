@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\classes\\validator\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\classes\\validator\\validation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\plenty_of_finch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\plenty_of_finch.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\project 2\\datingsite\\register.aspx||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\project 2\\datingsite\\register.aspx||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,32 +38,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Register.aspx",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Project 2\\DatingSite\\Register.aspx",
-              "RelativeDocumentMoniker": "Plenty_of_Finch\\Project 2\\DatingSite\\Register.aspx",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Project 2\\DatingSite\\Register.aspx",
-              "RelativeToolTip": "Plenty_of_Finch\\Project 2\\DatingSite\\Register.aspx",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADwAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2026-04-05T17:48:50.514Z"
+              "DocumentIndex": 1,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
+              "RelativeToolTip": "Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T17:21:38.707Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "Plenty_of_Finch.csproj",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Plenty_of_Finch.csproj",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
+              "RelativeToolTip": "Plenty_of_Finch\\Plenty_of_Finch.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T17:21:38.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Register\\Register.cshtml",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Views\\Register\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Register\\Register.cshtml*",
-              "RelativeToolTip": "Plenty_of_Finch\\Views\\Register\\Register.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Register\\Register.cshtml",
+              "RelativeToolTip": "Plenty_of_Finch\\Views\\Register\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-04T20:35:14.705Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T20:35:14.705Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Controllers\\RegisterController.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Controllers\\RegisterController.cs",
@@ -71,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\RegisterViewModel.cs",
