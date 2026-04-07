@@ -30,35 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Validation.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
-              "RelativeDocumentMoniker": "Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
-              "RelativeToolTip": "Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-07T17:21:38.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Plenty_of_Finch.csproj",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
-              "RelativeDocumentMoniker": "Plenty_of_Finch\\Plenty_of_Finch.csproj",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
-              "RelativeToolTip": "Plenty_of_Finch\\Plenty_of_Finch.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-07T17:21:38.389Z"
             },
             {
               "$type": "Document",
@@ -74,6 +50,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Plenty_of_Finch\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwCIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T19:20:36.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Plenty_of_Finch.csproj",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Plenty_of_Finch.csproj",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
+              "RelativeToolTip": "Plenty_of_Finch\\Plenty_of_Finch.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-07T17:21:38.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Validation.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
+              "RelativeToolTip": "Plenty_of_Finch\\Classes\\Validator\\Validation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T17:21:38.707Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "RegisterController.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Controllers\\RegisterController.cs",
@@ -83,18 +96,6 @@
               "ViewState": "AgIAAAYAAAAAAAAAAAAswC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-04T20:18:40.73Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\RegisterViewModel.cs",
-              "RelativeToolTip": "Plenty_of_Finch\\Models\\RegisterViewModel.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAkwCIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-04T19:20:36.03Z"
             }
           ]
         }
