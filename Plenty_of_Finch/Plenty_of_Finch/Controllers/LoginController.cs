@@ -12,14 +12,6 @@ namespace Plenty_of_Finch.Controllers
         }
         
 
-        //What does this code do? 
-        [HttpGet("Login/Math")]
-        public IActionResult Math(int x, int y)
-        {
-            ViewBag.numbers = x + y;
-            return View("Login");
-        }
-
         [HttpGet("Login/LoginCheck")]
         public IActionResult LoginCheck(string username, string password)
         {
