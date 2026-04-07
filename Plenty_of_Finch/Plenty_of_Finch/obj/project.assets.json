@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Mel\\.nuget\\packages\\": {},
+    "C:\\Users\\gsnyd\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
+      "projectUniqueName": "C:\\Users\\gsnyd\\OneDrive\\Desktop\\cis 3344\\class activities\\Plenty-Of-Finch-3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
       "projectName": "Plenty_of_Finch",
-      "projectPath": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
-      "packagesPath": "C:\\Users\\Mel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\obj\\",
+      "projectPath": "C:\\Users\\gsnyd\\OneDrive\\Desktop\\cis 3344\\class activities\\Plenty-Of-Finch-3\\Plenty_of_Finch\\Plenty_of_Finch\\Plenty_of_Finch.csproj",
+      "packagesPath": "C:\\Users\\gsnyd\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gsnyd\\OneDrive\\Desktop\\cis 3344\\class activities\\Plenty-Of-Finch-3\\Plenty_of_Finch\\Plenty_of_Finch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Mel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gsnyd\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -75,7 +76,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
