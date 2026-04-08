@@ -4,7 +4,7 @@ using System.Data;
 
 
 
-namespace Plenty_of_Finch.Controllers.MyNest
+namespace Plenty_of_Finch.Controllers
 {
     public class MyNestController : Controller
     {
