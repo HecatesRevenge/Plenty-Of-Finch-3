@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Plenty_of_Finch.DBConnections;
 
-namespace Plenty_of_Finch.Controllers
+namespace Plenty_of_Finch.Controllers.Account
 {
     public class LoginController : Controller
     {

@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Classes\Validator\" />
-    <Folder Include="Controllers\Account\" />
   </ItemGroup>
 
   <ItemGroup>

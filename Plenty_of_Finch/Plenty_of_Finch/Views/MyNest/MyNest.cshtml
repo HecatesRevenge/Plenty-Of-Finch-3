@@ -1,0 +1,27 @@
+﻿@model MyNestViewModel
+
+@{
+    ViewData["Title"] = "MyNest";
+}
+
+<div class="container my-4 flex-grow-1">
+
+    @* Insert success message after adding success message to viewmodel*@
+
+
+
+
+    <form asp-asp-controller="MyNest" asp-action="MyNest" method="post">
+
+
+    </form>
+    <div class="card p-4 mx-auto mb-4" style="max-width: 900px; background-color: #1e293b; border: 2px solid #334155;">
+        <h3 class="text-center mb-4" style="color: #ef4444;">My Nest</h3>
+        <p class="text-center" style="color: #94a3b8;">These are the birds you've saved to your flock.</p>
+        
+        @* Add loading of mynest list from database. Borrow code from Project 2*@
+        <a asp-controller="MyNestViewModel" asp-action=""
+
+
+    </div>
+</div>
