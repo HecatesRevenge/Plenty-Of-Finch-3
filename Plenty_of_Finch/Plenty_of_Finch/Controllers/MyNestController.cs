@@ -22,6 +22,12 @@ namespace Plenty_of_Finch.Controllers
 
         }
 
+
+        // Add this functionality 
+        public IActionResult PlanDate()
+        {
+                       return View();
+        }
         
         }
     }
