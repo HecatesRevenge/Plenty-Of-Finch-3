@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Plenty_of_Finch.DBConnection;
+using Plenty_of_Finch.Models;
 using System.Data;
 
 
@@ -9,7 +10,11 @@ namespace Plenty_of_Finch.Controllers
     public class MyNestController : Controller
     {
 
-
+        [HttpGet]
+        public IActionResult MyNest()
+        {
+            return View(new MyNestViewModel());
+        }
         public IActionResult DisplayMyNestList()
         {
 
@@ -29,6 +34,7 @@ namespace Plenty_of_Finch.Controllers
                        return View();
         }
         
-        }
+        
     }
 }
+

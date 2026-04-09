@@ -14,7 +14,7 @@
 
         if (Model.MessageVisible)
         {
-            messageType = "text-sucess";
+            messageType = "text-success";
         }
         <div class="d-block mb-3 fw-bold text-center @messageType">
             @Model.Message
@@ -45,7 +45,7 @@
                 }
 
                 @*TODO this might become reusable so later on see if I can move to own class for max code reusability*@ 
-                                                                                                                                                                                                                                @* Creates a profile view in for each profile in the myNest page. *@
+                                                                                                                                                                                                                                                                                                                                @* Creates a profile view in for each profile in the myNest page. *@
                 <div class="card mb-3 p-3" style="background-color: #334155;">
                     <div class="d-flex align-items-center">
                         <img src="@profileImg" class="rounded-circle border border-secondary me-3"
@@ -103,14 +103,14 @@
 
                     <div class="row">
                         <div class="col-md-6">
-                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Location:</strong> @d.City, @d.State</p>
-                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Occupation:</strong> @d.Occupation</p>
+                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Location:</strong> @dates.City, @dates.State</p>
+                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Occupation:</strong> @dates.Occupation</p>
                         </div>
                         <div class="col-md-6">
                             <h6 style="color: #22c55e; border-bottom: 1px solid #475569; padding-bottom: 5px;">Contact Info</h6>
-                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Email:</strong> @d.Email</p>
-                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Phone:</strong> @d.PhoneNumber</p>
-                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Address:</strong> @d.HomeAddress</p>
+                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Email:</strong> @dates.Email</p>
+                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Phone:</strong> @dates.PhoneNumber</p>
+                            <p style="color: #94a3b8;"><strong style="color: #f8fafc;">Address:</strong> @dates.HomeAddress</p>
                         </div>
                     </div>
 
@@ -122,17 +122,103 @@
         }
     </div>
 
+
+
+    @* TODO: 
+    
+        Add Yelp API integration somewhere here. It needs to give suggestions during the date planning and display the same info in the Planned Dates section
+        It also needs to be added to the upcoming dates form. 
+        
+    *@
+
+    @*Date Planning*@
     <div class="card p-4 mx-auto mb-4" style="max-width: 900px; background-color: #1e293b; border: 2px solid #334155;">
         <h3 class="text-center mb-4" style="color: #ef4444;">Plan a Date</h3>
         <p class="text-center" style="color: #94a3b8;">Select a Match and Set Up a Date.</p>
+
+
+        <form asp-controller="MyNest" asp-action="PlanDate" method="post">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label asp-for="MatchID" class="form-label" style="color: #f8fafc;">Choose a Match</label>
+                    <select name="MatchID" class="form-select">
+                        <option value="">Select a Match</option>
+                        @foreach (Microsoft.AspNetCore.Mvc.Rendering.SelectListItem match in Model.MatchOptions)
+                        {
+                            if (match.Value != "")
+                            {
+                                <option value="@match.Value">@match.Text</option>
+                            }
+                        }
+                    </select>
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="DateTime" class="form-label" style="color: #f8fafc;">Date & Time</label>
+                    <input asp-for="DateTime" type="datetime-local" class="form-control" />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Location" class="form-label" style="color: #f8fafc;">Location</label>
+                    <input asp-for="Location" class="form-control" placeholder="Rittenhouse Square" />
+                </div>
+
+                <div class="col-md-6">
+                    <label asp-for="Description" class="form-label" style="color: #f8fafc;">Description</label>
+                    <input asp-for="Description" class="form-control" placeholder="Birdwatching" />
+                </div>
+
+                <div class="col-12">
+                    <button type="submit" class="btn fw-bold w-100" style="background-color: #ef4444; color: white;">Plan Date</button>
+                </div>
+            </div>
+        </form>
     </div>
 
-    <form asp-controller="MyNest" asp-action="PlanDate" method="post">
-        <div class="row g-3">
-            <div class="col-md-6">
-               <label asp-for="SelectedMatchID" class="form-label" style="color: #f8fafc;">Choose a Match</label>
-            </div>
-        </div>
-    </form>
+    @*Planned Dates*@
+    <div class="card p-4 mx-auto mb-4" style="max-width: 900px; background-color: #1e293b; border: 2px solid #334155;">
+        <h3 class="text-center mb-4" style="color: #ef4444;">Planned Dates</h3>
 
+
+
+        @if (Model.PlannedDates.Count == 0)
+        {
+            <p class="text-center" style="color: #94a3b8;">
+                No Planned Dates. Use Date Planner to Set Up Dates with Your Matches!
+            </p>
+        }
+        else
+        {
+            foreach (PlannedDates planned in Model.PlannedDates)
+            {
+                string profileImg = planned.ProfileImage;
+
+                if (string.IsNullOrEmpty(profileImg))
+                {
+                    profileImg = "/images/default-profile.png";
+                }
+
+                <div class="card mb-3 p-3" style="background-color: #334155;">
+
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="@profileImg" class="rounded-circle border border-secondary me-3"
+                             style="width: 50px; height: 50px; object-fit: cover;" />
+                        <div>
+                            <strong style="color: #f8fafc;">@planned.FirstName @planned.LastName</strong>
+                            <span class="text-muted ms-2">(@planned.Species)</span>
+                        </div>
+                    </div>
+                    <div class="ms-5">
+                        <p style="color: #f8fafc;"><strong style="color: #ef4444;">When:</strong> @planned.DateOfDate.ToString("MMM dd, yyyy h:mm tt")</p>
+                        <p style="color: #f8fafc;"><strong style="color: #ef4444;">Where:</strong> @planned.Location</p>
+                        <p style="color: #f8fafc;"><strong style="color: #ef4444;">Plan:</strong> @planned.Description</p>
+                    </div>
+                </div>
+
+
+            }
+        }
+
+
+    </div>
 </div>
