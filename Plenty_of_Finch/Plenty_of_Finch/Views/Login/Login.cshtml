@@ -2,41 +2,6 @@
     ViewData["Title"] = "Login";
 }
 
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #0f172a; border-bottom: 2px solid #ef4444;">
-    <div class="container">
-        <a class="navbar-brand fw-bold" href="#" style="color: #ef4444;">Plenty of Finch</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Register" asp-action="Register">Register</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" asp-controller="Login" asp-action="Login">Login</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
-<h1>Hello, world!</h1>
-<h2>The time on the server is @DateTime.Now</h2>
-
-<form method="get" action="/Login/Math">
-    <input type="text" name="x" />
-    <input type="text" name="y" />
-    <button type="submit">do math</button>
-</form>
-@if (ViewBag.numbers != null)
-{
-    <h3>Result: @ViewBag.numbers</h3>
-}
-
 <form method="get" action="/Login/LoginCheck">
     <input type="text" name="username" />
     <input type="password" name="password" />

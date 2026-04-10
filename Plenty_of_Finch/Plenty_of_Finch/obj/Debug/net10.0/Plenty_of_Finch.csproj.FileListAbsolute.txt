@@ -58,7 +58,7 @@ C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\scopedcss\bundle\Plenty_of_Finch.styles.css
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\scopedcss\projectbundle\Plenty_of_Finch.bundle.scp.css
-C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\akq142yqqk-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\joosjjx2be-{0}-hrd0r9zvvi-hrd0r9zvvi.gz
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\35sf35ik61-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\555o58xips-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\17pxks8o7j-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -120,6 +120,7 @@ C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\k08nju52ia-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\c82vdwua2t-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\buf6ebrotu-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\akq142yqqk-{0}-z69xhzb77f-z69xhzb77f.gz
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\plxtdcozp3-{0}-xqfc8q07yf-xqfc8q07yf.gz
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\compressed\6w3kxibtoh-{0}-xqfc8q07yf-xqfc8q07yf.gz
 C:\Users\Mel\Documents\GitHub\3342_Project_3\Plenty_of_Finch\Plenty_of_Finch\obj\Debug\net10.0\staticwebassets.build.json

@@ -3,45 +3,74 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Plenty_of_Finch</title>
-    <script type="importmap"></script>
+    <title>@ViewData["Title"] - Plenty of Finch</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/Theme.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Plenty_of_Finch.styles.css" asp-append-version="true" />
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100 mb-0">
+
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Plenty_of_Finch</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+        <nav class="navbar navbar-expand navbar-dark custom-nav mb-4">
+            <div class="container">
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">Plenty of Finch</a>
+                <ul class="navbar-nav ms-auto flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link px-3" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" asp-controller="Search" asp-action="Search">Find Flocks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" asp-controller="MyNest" asp-action="MyNest">My Nest</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" asp-controller="Profile" asp-action="MyProfile">My Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" asp-controller="Login" asp-action="Login">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-3" asp-controller="Register" asp-action="Register">Register</a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
+    <main role="main" class="flex-grow-1">
+        @RenderBody()
+    </main>
+
+    <footer class="mt-auto py-2">
         <div class="container">
-            &copy; 2026 - Plenty_of_Finch - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            <div class="row">
+                <div class="col-md-5">
+                    <h5>Plenty of Finch</h5>
+                    <p class="text-muted small">No Catfish. Just Finches.</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Explore</h5>
+                    <ul class="list-unstyled">
+                        <li><a asp-controller="Search" asp-action="Search">Search Flocks</a></li>
+                        <li><a asp-controller="MyNest" asp-action="MyNest">My Nest</a></li>
+                        <li><a asp-controller="Register" asp-action="Register">Register</a></li>
+                        <li><a asp-controller="Profile" asp-action="MyProfile">Profile</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Project Info</h5>
+                    <ul class="list-unstyled text-muted small">
+                        <li>CIS 3342 - Project 3</li>
+                        <li>Spring 2026</li>
+                        <li>&copy; Amelia Edgar & Garrett Snyder</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </footer>
+
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
