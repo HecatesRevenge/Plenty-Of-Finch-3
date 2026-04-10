@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\views\\profile\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\views\\profile\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\models\\myprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\models\\myprofileviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +31,6 @@
       "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\models\\profile\\incomingdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\views\\profile\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\views\\profile\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\models\\mynest\\planneddates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\models\\mynest\\planneddates.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -42,34 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyProfileViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
-              "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
-              "RelativeToolTip": "Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T01:51:23.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NestBirdProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\MyNest\\NestBirdProfiles.cs",
-              "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\MyNest\\NestBirdProfiles.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\MyNest\\NestBirdProfiles.cs",
-              "RelativeToolTip": "Plenty_of_Finch\\Models\\MyNest\\NestBirdProfiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T01:50:01.508Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -80,7 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "MyProfileViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
+              "RelativeToolTip": "Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T01:51:23.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProfileViewer.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Profile\\ProfileViewer.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\Profile\\ProfileViewer.cs",
@@ -88,12 +75,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\Profile\\ProfileViewer.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAIwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T01:46:10.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T01:46:10.568Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OutgoingDateRequest.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Profile\\OutgoingDateRequest.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\Profile\\OutgoingDateRequest.cs",
@@ -101,12 +87,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\Profile\\OutgoingDateRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T01:44:22.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T01:44:22.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Profile\\Notification.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\Profile\\Notification.cs",
@@ -114,12 +99,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\Profile\\Notification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T01:38:19.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T01:38:19.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IncomingDateRequest.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Profile\\IncomingDateRequest.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\Profile\\IncomingDateRequest.cs",
@@ -127,21 +111,32 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\Profile\\IncomingDateRequest.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAIwC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-10T01:26:52.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-10T01:26:52.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "MyProfile.cshtml",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Profile\\MyProfile.cshtml",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Views\\Profile\\MyProfile.cshtml",
               "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Profile\\MyProfile.cshtml",
               "RelativeToolTip": "Plenty_of_Finch\\Views\\Profile\\MyProfile.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-10T01:22:54.466Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NestBirdProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\MyNest\\NestBirdProfiles.cs",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\MyNest\\NestBirdProfiles.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\MyNest\\NestBirdProfiles.cs",
+              "RelativeToolTip": "Plenty_of_Finch\\Models\\MyNest\\NestBirdProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T01:50:01.508Z"
             },
             {
               "$type": "Document",
@@ -153,8 +148,7 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\MyNest\\PlannedDates.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T22:00:49.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T22:00:49.402Z"
             }
           ]
         }

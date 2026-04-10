@@ -1,1 +1,39 @@
-﻿
+﻿@using Plenty_of_Finch.Models.Profile
+@model MyProfileViewModel
+
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<div class="container my-4 flex-grow-1">
+    @if (!string.IsNullOrEmpty(Model.Message))
+    {
+        <div class="d-block mb-3 fw-bold text-success text-center">
+            @Model.Message
+        </div>
+    }
+
+    @foreach (Notification note in Model.Notifications)
+    {
+        <div class="alert @note.CssClass text-center mx-auto mb-2" style="max-width 900px;">
+            @Html.Raw(note.Text)
+        </div>
+
+    }
+
+    <div class="card p-4 mx-auto mb-4" style="max-width: 900px; background-color: #1e293b; border: 2px solid #334155">
+        <h3 class="text-center mb-4" style="color:#ef4444;">@Model.PageTitle</h3>
+        <form asp-controller="Profile" asp-action="SaveProfile" method="post">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <h5 style="color: #ef4444; border-bottom: 2px solid #334155; padding-bottom: 5px;">About You</h5>
+
+                    <div class="mb-3">
+                        <label asp-for="Biography" class="form-label" style="color: #f8fafc">Biography</label>
+                        <textarea asp-for="Biography" class="form-control" rows="4"></textarea>
+              </div>
+            </div>
+        </form>
+    </div>
+</div>
