@@ -1,4 +1,4 @@
-﻿namespace Plenty_of_Finch.Models.MyNest.MyNest_Classes
+﻿namespace Plenty_of_Finch.Models.MyNest
 {
     public class PlannedDates
     {

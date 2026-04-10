@@ -1,5 +1,5 @@
-﻿using Plenty_of_Finch.Models.MyNest.MyNest_Classes;
-using Microsoft.AspNetCore.Mvc.Rendering;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using Plenty_of_Finch.Models.MyNest;
 
 
 namespace Plenty_of_Finch.Models
