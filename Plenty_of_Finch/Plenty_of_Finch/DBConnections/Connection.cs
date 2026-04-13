@@ -10,10 +10,10 @@ namespace Plenty_of_Finch
     public class DBConnect
     {
         //Main Connection String - used for the published web application and project submissions.
-        String SqlConnectString = "server=cis-mssql1.temple.edu;Database=sp26_3342_tus45674;User id=tus45674;Password=zaaf9Cae4x; TrustServerCertificate=true";
+        //String SqlConnectString = "server=cis-mssql1.temple.edu;Database=sp26_3342_tus45674;User id=tus45674;Password=zaaf9Cae4x; TrustServerCertificate=true";
 
         // Home Connection String - used for working from home using SSH Tunneling.
-        //String SqlConnectString = "server=127.0.0.1,5555;Database=sp26_3342_tus45674;User id=tus45674;Password=zaaf9Cae4x; TrustServerCertificate=true";
+        String SqlConnectString = "server=127.0.0.1,5555;Database=sp26_3342_tus45674;User id=tus45674;Password=zaaf9Cae4x; TrustServerCertificate=true";
 
         SqlConnection myConnectionSql;
         SqlCommand objCmd;
@@ -26,7 +26,7 @@ namespace Plenty_of_Finch
         }
 
 
-        
+
         public DataSet GetDataSet(String SqlSelect)
         {
             // Input parameter is a SELECT SQL statement. Return is the Dataset 
@@ -39,7 +39,7 @@ namespace Plenty_of_Finch
             return myDataSet;
         }
 
-        
+
         public DataSet GetDataSet(String SqlSelect, out int theRecordCount)
         {
             // Input parameter is a SELECT SQL statement. 
@@ -170,7 +170,7 @@ namespace Plenty_of_Finch
             ds = myDataSet;
 
             return myDataSet;
-            
+
         }
 
         public DataRow GetRow(DataSet theDataSet, int theRow)
@@ -207,7 +207,7 @@ namespace Plenty_of_Finch
         {
             // Input parameter is a DataSet. This function is used to Commit
             // the Dataset to the Data Source when updating a disconnected ds.
-            
+
             SqlDataAdapter myDataAdapter = new SqlDataAdapter();
             myDataAdapter.Update(theDataSet);
         }
