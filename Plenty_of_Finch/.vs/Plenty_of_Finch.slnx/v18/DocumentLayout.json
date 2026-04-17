@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\controllers\\searchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\views\\search\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\views\\search\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\models\\search\\searchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\models\\search\\searchresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\models\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|solutionrelative:plenty_of_finch\\views\\register\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C4AEA50A-4EF2-3007-8158-53EEA293C797}|Plenty_of_Finch\\Plenty_of_Finch.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\plenty_of_finch\\views\\profile\\myprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,7 +70,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,20 +82,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\RegisterViewModel.cs",
+              "RelativeToolTip": "Plenty_of_Finch\\Models\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T04:03:01.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Controllers\\ProfileController.cs",
               "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Controllers\\ProfileController.cs",
               "RelativeToolTip": "Plenty_of_Finch\\Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-17T01:06:37.613Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SearchController.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Controllers\\SearchController.cs",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Controllers\\SearchController.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Controllers\\SearchController.cs",
+              "RelativeToolTip": "Plenty_of_Finch\\Controllers\\SearchController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T03:17:11.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SearchResult.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Search\\SearchResult.cs",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\Search\\SearchResult.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Search\\SearchResult.cs",
+              "RelativeToolTip": "Plenty_of_Finch\\Models\\Search\\SearchResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T02:59:26.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Search\\Search.cshtml",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Views\\Search\\Search.cshtml",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Search\\Search.cshtml",
+              "RelativeToolTip": "Plenty_of_Finch\\Views\\Search\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T03:30:07.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Register\\Register.cshtml",
+              "RelativeDocumentMoniker": "Plenty_of_Finch\\Views\\Register\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Register\\Register.cshtml",
+              "RelativeToolTip": "Plenty_of_Finch\\Views\\Register\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-17T04:03:05.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Views\\Shared\\_Layout.cshtml",
@@ -83,12 +168,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-17T01:02:25.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T01:02:25.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "MyNest.cshtml",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\MyNest\\MyNest.cshtml",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Views\\MyNest\\MyNest.cshtml",
@@ -96,12 +180,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Views\\MyNest\\MyNest.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-17T00:58:18.773Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T00:58:18.773Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Notification.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Profile\\Notification.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\Profile\\Notification.cs",
@@ -109,12 +192,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\Profile\\Notification.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T00:42:45.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T00:42:45.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "IncomingDateRequest.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Profile\\IncomingDateRequest.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\Profile\\IncomingDateRequest.cs",
@@ -122,12 +204,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\Profile\\IncomingDateRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T00:42:44.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T00:42:44.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "MyProfile.cshtml",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Profile\\MyProfile.cshtml",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Views\\Profile\\MyProfile.cshtml",
@@ -135,12 +216,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Views\\Profile\\MyProfile.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-17T00:00:47.216Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T00:00:47.216Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "MyProfileViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
@@ -148,12 +228,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\MyProfileViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T00:01:31.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T00:01:31.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "OutgoingDateRequest.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Profile\\OutgoingDateRequest.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\Profile\\OutgoingDateRequest.cs",
@@ -161,12 +240,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\Profile\\OutgoingDateRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T00:42:46.469Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T00:42:46.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ProfileViewer.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Models\\Profile\\ProfileViewer.cs",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Models\\Profile\\ProfileViewer.cs",
@@ -174,12 +252,11 @@
               "RelativeToolTip": "Plenty_of_Finch\\Models\\Profile\\ProfileViewer.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAYwC4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T00:42:47.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-17T00:42:47.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\Plenty_of_Finch\\Views\\Login\\Login.cshtml",
               "RelativeDocumentMoniker": "Plenty_of_Finch\\Views\\Login\\Login.cshtml",
@@ -187,8 +264,7 @@
               "RelativeToolTip": "Plenty_of_Finch\\Views\\Login\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-16T20:07:19.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-16T20:07:19.726Z"
             }
           ]
         }

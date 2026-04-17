@@ -1,12 +1,30 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Plenty_of_Finch.Helpers;
+using Plenty_of_Finch.Models;
+using Plenty_of_Finch.Models.Search;
 
 namespace Plenty_of_Finch.Controllers
 {
     public class SearchController : Controller
     {
-        public IActionResult Index()
+
+        [HttpGet]
+
+        public IActionResult Search()
         {
-            return View();
+
+
+
+            /*
+             *              * TODO Add controls to fetch search results from API
+             * 
+             * 
+             */
+            SearchViewModel model = new SearchViewModel();
+            model.StateOptions = StateList.GetStates();
+
+            return View(model);
         }
     }
 }
+
