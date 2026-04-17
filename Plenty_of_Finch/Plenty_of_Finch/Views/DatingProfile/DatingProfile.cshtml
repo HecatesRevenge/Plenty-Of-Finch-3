@@ -1,0 +1,190 @@
+﻿@using Plenty_of_Finch.Models.DatingProfile
+@model DatingProfileViewModel
+
+@{
+    ViewData["Title"] = Model.FullName + " - Profile";
+}
+
+<div class="container my-5 flex-grow-1">
+    <div class="card p-4 mx-auto" style="max-width: 900px; background-color: #1e293b; border: 2px solid #334155;">
+
+        <div class="row">
+            <div class="col-12 text-center border-secondary">
+
+                @{
+                    string img = Model.ProfileImage;
+                    if (string.IsNullOrEmpty(img))
+                    {
+                        img = "DefaultImage.png";
+                    }
+                }
+                <img src="@img" class="img-fluid rounded-circle mb-1 border border-3 border-danger"
+                     style="max-width: 200px;" />
+
+                <h3 style="color: #f8fafc;">@Model.FullName</h3>
+                <span style="color: #94a3b8;">@Model.Age</span>
+                <br />
+                <span style="color: #94a3b8;">@Model.Gender</span>
+
+                <p class="text-muted">@Model.Location</p>
+
+                <div class="d-flex justify-content-center gap-3 mb-4 text-medium">
+                    <div>
+                        <strong style="color: #ef4444;">@Model.TotalLikes</strong> Likes
+                    </div>
+                    <div>
+                        <strong style="color: #3b82f6;">@Model.TotalViews</strong> Views
+                    </div>
+                </div>
+
+
+                @if (!string.IsNullOrEmpty(Model.Message))
+                {
+                    string msgClass = "text-success";
+                    if (!Model.MessageIsSuccess)
+                    {
+                        msgClass = "text-warning";
+                    }
+                    <div class="d-block mt-2 fw-bold @msgClass">@Model.Message</div>
+                }
+            </div>
+
+
+            <h6 class="text-muted mt-2 border-bottom border-secondary pb-1">About Me</h6>
+            <p>
+                <textarea class="form-control custom-bio-box" rows="4" readonly="readonly"
+                          style="resize: none;">@Model.Biography</textarea>
+            </p>
+
+
+            @*This will show contact information after a match *@
+            @if (Model.ShowContactInfo)
+            {
+                <h6 class="text-muted mt-3 border-bottom border-secondary pb-1">Contact Information</h6>
+                <div class="row mb-3">
+                    <div class="col-sm-4">
+                        f8fafc                        <span style="color: #94a3b8;">@Model.Email</span>
+                    </div>
+                    <div class="col-sm-4">
+                        <strong style="color: #f8fafc;">Phone:</strong>
+                        <span style="color: #94a3b8;">@Model.PhoneNumber</span>
+                    </div>
+                    <div class="col-sm-4">
+                        <strong style="color: #f8fafc;">Address:</strong>
+                        <span style="color: #94a3b8;">@Model.HomeAddress</span>
+                    </div>
+                </div>
+            }
+            <div class="row">
+                <div class="col-md-6">
+                    <strong class="fw-bold mb-2 d-block" style="color: #f8fafc;">Likes</strong>
+                    @if (Model.Likes.Count == 0)
+                    {
+                        <p class="text-muted">No Likes Listed</p>
+                    }
+                    else
+                    {
+                        foreach (Preference pref in Model.Likes)
+                        {
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" checked="checked" disabled="disabled" />
+                                <label class="form-check-label text-muted">@pref.PreferenceText</label>
+                            </div>
+                        }
+                    }
+                </div>
+                <div class="col-md-6">
+                    <strong class="fw-bold mb-2 d-block" style="color: #f8fafc;">Dislikes</strong>
+                    @if (Model.Dislikes.Count == 0)
+                    {
+                        <p class="text-muted">No Dislikes Listed</p>
+                    }
+                    else
+                    {
+                        foreach (Preference pref in Model.Dislikes)
+                        {
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" checked="checked" disabled="disabled" />
+                                <label class="form-check-label text-muted">@pref.PreferenceText</label>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+
+            <h6 class="text-muted mt-4 border-bottom border-secondary pb-1 pt-4">Dating Preferences</h6>
+            <div class="row mb-3">
+                <div class="col-sm-4">
+                    <strong style="color: #f8fafc;">Goals:</strong>
+                    <span style="color: #94a3b8;">@Model.Goals</span>
+                </div>
+                <div class="col-sm-4">
+                    <strong style="color: #f8fafc;">Commitment Type:</strong>
+                    <span style="color: #94a3b8;">@Model.CommitmentType</span>
+                </div>
+                <div class="col-sm-4">
+                    <strong style="color: #f8fafc;">Age Range:</strong>
+                    <span style="color: #94a3b8;">@Model.AgeRange</span>
+                </div>
+            </div>
+
+
+
+            <h6 class="text-muted mt-4 border-bottom border-secondary pb-1">Avian Traits</h6>
+            <div class="row">
+                <div class="col-sm-6 mb-1">
+                    <strong>Species:</strong>
+                    <span style="color: #94a3b8;">@Model.Species</span>
+                </div>
+                <div class="col-sm-6 mb-1">
+                    <strong>Wingspan:</strong>
+                    <span style="color: #94a3b8;">@Model.Wingspan</span>
+                </div>
+                <div class="col-sm-6 mb-1">
+                    <strong>Favorite Seed:</strong>
+                    <span style="color: #94a3b8;">@Model.FavoriteSeed</span>
+                </div>
+                <div class="col-sm-6 mb-1">
+                    <strong>Plumage:</strong>
+                    <span style="color: #94a3b8;">@Model.Plumage</span>
+                </div>
+                <div class="col-sm-6 mb-1">
+                    <strong>Occupation:</strong>
+                    <span style="color: #94a3b8;">@Model.Occupation</span>
+                </div>
+            </div>
+
+
+            @*Button Actions*@
+            @if (!Model.IsOwnProfile)
+            {
+                <div class="row mt-3">
+                    <div class="col-sm-6">
+                        @if (Model.AlreadyInNest)
+                        {
+                            <a class="btn btn-secondary w-100 mt-2 disabled">Already in Your Nest</a>
+                        }
+                        else
+                        {
+                            <a href="/DatingProfile/AddToNest?id=@Model.BirdID"
+                               class="btn btn-primary w-100 mt-2">Add to My Nest</a>
+                        }
+                    </div>
+                    <div class="col-sm-6">
+                        @if (Model.RequestAlreadySent)
+                        {
+                            <a class="btn btn-secondary w-100 mt-2 disabled">Request Sent</a>
+                        }
+                        else
+                        {
+                            <a href="/DatingProfile/RequestDate?id=@Model.BirdID"
+                               class="btn btn-danger w-100 mt-2">Request a Date</a>
+                        }
+                    </div>
+                </div>
+            }
+
+        </div>
+
+    </div>
+</div>
