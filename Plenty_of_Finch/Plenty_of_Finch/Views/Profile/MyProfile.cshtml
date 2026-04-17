@@ -6,12 +6,20 @@
 }
 
 <div class="container my-4 flex-grow-1">
+   
+    
+
+    @*
+
+    Fix this once API is implemented 
     @if (!string.IsNullOrEmpty(Model.Message))
     {
         <div class="d-block mb-3 fw-bold text-success text-center">
             @Model.Message
         </div>
     }
+    *@
+
 
     @foreach (Notification note in Model.Notifications)
     {
@@ -123,7 +131,142 @@
         </form>
     </div>
 
+    <div class="card p-4 mx-auto mb-4" style="max-width: 900px; background-color: #1e293b; border: 2px solid #334155;">
+        <h3 class="text-center mb-4" style="color: #ef4444;">Date Requests</h3>
 
 
+        <h5 style="color: #f8fafc; border-bottom: 2px solid #334155; padding-bottom: 5px;">Incoming Requests</h5>
 
+        @if (Model.IncomingRequests.Count == 0)
+        {
+            <p style="color: #94a3b8;">No incoming date requests.</p>
+        }
+        else
+        {
+            foreach (IncomingDateRequest req in Model.IncomingRequests)
+            {
+                string img = req.ProfileImage;
+                if (string.IsNullOrEmpty(img))
+                {
+                    img = "DefaultProfileImage.png";
+                }
+
+                <div class="card mb-2 p-3" style="background-color: #334155;">
+                    <div class="d-flex align-items-center">
+                        <img src="@img" alt="Profile"
+                             style="width: 60px; height: 60px; object-fit: cover; border-radius: 50%; margin-right: 15px;" />
+                        <div style="flex: 1;">
+                            <strong style="color: #f8fafc;">@req.SenderName</strong>
+                            <span class="text-muted ms-2">(@req.SenderSpecies)</span>
+                        </div>
+
+                        @if (req.RequestStatus == "Pending")
+                        {
+                            <div>
+                                <a href="/Profile/HandleRequest?action=accept&requestID=@req.RequestID"
+                                   class="btn btn-sm" style="background-color: #22c55e; color: white;">Accept</a>
+                                <a href="/Profile/HandleRequest?action=decline&requestID=@req.RequestID"
+                                   class="btn btn-sm" style="background-color: #ef4444; color: white;">Decline</a>
+                            </div>
+                        }
+                        else
+                        {
+                            string badgeColor = "#ef4444";
+                            if (req.RequestStatus == "Accepted")
+                            {
+                                badgeColor = "#22c55e";
+                            }
+                            <span class="badge" style="background-color: @badgeColor;">@req.RequestStatus</span>
+                        }
+                    </div>
+                </div>
+            }
+        }
+
+
+        <h5 class="mt-4" style="color: #f8fafc; border-bottom: 2px solid #334155; padding-bottom: 5px;">Outgoing Requests</h5>
+
+        @if (Model.OutgoingRequests.Count == 0)
+        {
+            <p style="color: #94a3b8;">No outgoing date requests.</p>
+        }
+        else
+        {
+            foreach (OutgoingDateRequest req in Model.OutgoingRequests)
+            {
+                string badgeColor = "#f59e0b";
+                if (req.RequestStatus == "Accepted")
+                {
+                    badgeColor = "#22c55e";
+                }
+                if (req.RequestStatus == "Declined")
+                {
+                    badgeColor = "#ef4444";
+                }
+
+                <div class="card mb-2 p-3" style="background-color: #334155;">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong style="color: #f8fafc;">@req.RecieverName</strong>
+                            <span class="text-muted ms-2">(@req.ReceiverSpecies)</span>
+                        </div>
+                        <span class="badge" style="background-color: @badgeColor;">@req.RequestStatus</span>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+    <div class="card p-4 mx-auto mb-4" style="max-width: 900px; background-color: #1e293b; border: 2px solid #334155;">
+        <h3 class="text-center mb-4" style="color: #ef4444;">Viewed My Profile</h3>
+        <p class="text-center d-block mb-3" style="color: #94a3b8;">
+            Total views: @Model.TotalProfileViews
+        </p>
+
+        @if (Model.ProfileViewers.Count == 0)
+        {
+            <p class="text-center" style="color: #94a3b8;">No one has viewed your profile yet.</p>
+        }
+        else
+        {
+            foreach (ProfileViewer viewer in Model.ProfileViewers)
+            {
+                string img = viewer.ProfileImage;
+                if (string.IsNullOrEmpty(img))
+                {
+                    img = "DefaultProfileImage.png";
+                }
+
+                <div class="card mb-3 p-3" style="background-color: #334155;">
+                    <div class="d-flex align-items-center mb-2">
+                        <img src="@img" class="rounded-circle border border-secondary me-3"
+                             style="width: 40px; height: 40px; object-fit: cover;" />
+                        <div>
+                            <strong style="color: #f8fafc;">@viewer.FullName</strong>
+                            <span class="text-muted ms-2">(@viewer.Species)</span>
+                        </div>
+                        <a href="/DatingProfile/DatingProfile?id=@viewer.ViewerID"
+                           class="btn btn-sm ms-auto" style="background-color: #ef4444; color: white;">View Profile</a>
+                    </div>
+                    <div class="ms-5" style="color: #94a3b8; font-size: 0.9em;">
+                        Viewed on @viewer.ViewedAt.ToString("MMM dd, yyyy h:mm tt")
+                    </div>
+                </div>
+            }
+        }
+    </div>
+
+ 
+    <div class="d-grid gap-2 mx-auto mb-4" style="max-width: 900px;">
+        <a asp-controller="Profile" asp-action="Logout"
+           class="btn btn-outline-danger btn-lg fw-bold">Log Out</a>
+    </div>
 </div>
+
+
+
+
+
+
+
+

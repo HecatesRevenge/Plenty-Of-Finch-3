@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Plenty_of_Finch")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1f02122534119d070e848460f0139565810b600")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3402071fdec38e2d57e6ac8bc7171d9246add948")]
 [assembly: System.Reflection.AssemblyProductAttribute("Plenty_of_Finch")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Plenty_of_Finch")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
