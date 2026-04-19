@@ -29,7 +29,7 @@
         private string email;
         private string phoneNumber;
         private string homeAddress;
-
+        private int zipCode;
         public BirdProfiles()
         {
             birdID = 0;
@@ -59,6 +59,7 @@
             email = "";
             phoneNumber = "";
             homeAddress = "";
+
         }
 
         public int BirdID
@@ -148,6 +149,12 @@
             set { wingspan = value; }
         }
 
+        public string FavoriteSeed
+        {
+            get { return favoriteSeed; }
+            set { favoriteSeed = value; }
+        }
+
         public string Plumage
         {
             get { return plumage; }
@@ -189,6 +196,8 @@
             get { return homeAddress; }
             set { homeAddress = value; }
         }
+
+
     }
 
 
