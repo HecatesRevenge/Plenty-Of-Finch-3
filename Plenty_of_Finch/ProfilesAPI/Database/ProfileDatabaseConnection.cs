@@ -77,7 +77,7 @@ namespace ProfilesAPI.Database
             return -1;
         }
 
-        public bool UpdateBirdProfile(int birdID, string biography, string profileImage,
+        public bool UpdateBirdProfile(int profileID, int birdID, string biography, string profileImage,
             string species, string wingSpan, string commitmentType, string goals,
             string plumage, string ageRange, string occupation, string favoriteSeed,
             bool isVisible)
@@ -85,7 +85,7 @@ namespace ProfilesAPI.Database
             SqlCommand objCommand = new SqlCommand();
             objCommand.CommandType = CommandType.StoredProcedure;
             objCommand.CommandText = "UpdateBirdProfile";
-
+            objCommand.Parameters.AddWithValue("@ProfileID", profileID);
             objCommand.Parameters.AddWithValue("@BirdID", birdID);
             objCommand.Parameters.AddWithValue("@Biography", biography);
             objCommand.Parameters.AddWithValue("@ProfileImage", profileImage);

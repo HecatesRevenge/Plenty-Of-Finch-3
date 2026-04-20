@@ -2,6 +2,7 @@
 {
     public class ProfileUpdateRequest
     {
+        private int profileID;
         private string biography;
         private string profileImage;
         private string species;
@@ -12,10 +13,12 @@
         private string ageRange;
         private string occupation;
         private string favoriteSeed;
+       
         private bool isVisible;
 
         public ProfileUpdateRequest()
         {
+            profileID = 0;
             biography = "";
             profileImage = "";
             species = "";
@@ -29,6 +32,12 @@
             isVisible = false;
         }
 
+
+        public int ProfileID
+        {
+            get { return profileID; }
+            set { profileID = value; }
+        }
         public string Biography
         {
             get { return biography; }

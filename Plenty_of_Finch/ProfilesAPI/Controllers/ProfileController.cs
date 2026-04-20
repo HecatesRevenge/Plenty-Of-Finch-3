@@ -14,7 +14,7 @@ namespace ProfilesAPI.Controllers
 
         //Used for searching function
         [HttpGet]
-        public IActionResult GetAllProfiles(string state, string commitment, string ageRange, string Wingspan)
+        public IActionResult GetAllProfiles(string? state, string? commitment, string? ageRange, string? wingspan)
         {
             ProfileDatabaseConnection databaseConnection = new ProfileDatabaseConnection();
             DataSet profilesDataSet;
@@ -31,9 +31,9 @@ namespace ProfilesAPI.Controllers
             {
                 profilesDataSet = databaseConnection.SearchByAgeRange(ageRange);
             }
-            else if (!string.IsNullOrEmpty(Wingspan))
+            else if (!string.IsNullOrEmpty(wingspan))
             {
-                profilesDataSet = databaseConnection.SearchByWingSpan(Wingspan);
+                profilesDataSet = databaseConnection.SearchByWingSpan(wingspan);
             }
             else
             {
@@ -67,7 +67,7 @@ namespace ProfilesAPI.Controllers
 
 
         //Returns Profile based on ID, if full is true, it will return the full profile, otherwise it will return the public profile
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public IActionResult GetProfile(int id, bool full)
         {
             ProfileDatabaseConnection databaseConnection = new ProfileDatabaseConnection();
@@ -96,7 +96,7 @@ namespace ProfilesAPI.Controllers
             DataRow row = profilesDataSet.Tables[0].Rows[0];
 
             BirdProfiles profile = new BirdProfiles();
-            profile.BirdID = Convert.ToInt32(row["BirdID"]);
+            profile.BirdID = id;
             profile.FirstName = row["FirstName"].ToString();
             profile.LastName = row["LastName"].ToString();
             profile.Age = Convert.ToInt32(row["Age"]);
@@ -115,12 +115,12 @@ namespace ProfilesAPI.Controllers
             profile.Occupation = row["Occupation"].ToString();
             profile.TotalLikes = Convert.ToInt32(row["TotalLikes"]);
 
-            if (full)
-            {
-                profile.Email = row["Email"].ToString();
-                profile.PhoneNumber = row["PhoneNumber"].ToString();
-                profile.HomeAddress = row["HomeAddress"].ToString();
-            }
+
+
+            profile.Email = row["Email"].ToString();
+            profile.PhoneNumber = row["PhoneNumber"].ToString();
+            profile.HomeAddress = row["HomeAddress"].ToString();
+
 
             return Ok(profile);
         }
@@ -163,7 +163,7 @@ namespace ProfilesAPI.Controllers
 
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("{id:int}")]
         public IActionResult UpdateProfile(int id, [FromBody] ProfileUpdateRequest request)
         {
             if (request == null)
@@ -174,6 +174,7 @@ namespace ProfilesAPI.Controllers
 
 
             bool updateSuccess = databaseConnection.UpdateBirdProfile(
+                request.ProfileID,
                 id,
                 request.Biography,
                 request.ProfileImage,
@@ -196,7 +197,7 @@ namespace ProfilesAPI.Controllers
             return Ok("Profile updated successfully.");
         }
 
-        [HttpGet("id/viewcount")]
+        [HttpGet("{id:int}/viewcount")]
         public IActionResult GetViewCount(int id)
         {
             ProfileDatabaseConnection databaseConnection = new ProfileDatabaseConnection();
@@ -205,7 +206,7 @@ namespace ProfilesAPI.Controllers
 
         }
 
-        [HttpPost("{id}/logview")]
+        [HttpPost("{id:int}/logview")]
         public IActionResult LogView(int id, int viewerID)
         {
             ProfileDatabaseConnection databaseConnection = new ProfileDatabaseConnection();

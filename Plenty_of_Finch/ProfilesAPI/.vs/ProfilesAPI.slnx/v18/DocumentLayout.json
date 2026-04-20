@@ -3,32 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\profilesapi\\testing\\test.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|solutionrelative:testing\\test.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Mel\\Documents\\Claude Projects\\3342_Project_3\\Plenty_of_Finch\\ProfileAPI\\DataAccess\\ProfileDataAccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\profilesapi\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\profilesapi\\database\\profiledatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|solutionrelative:database\\profiledatabaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\profilesapi\\models\\profileupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|solutionrelative:models\\profileupdaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\profilesapi\\models\\profilecreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|solutionrelative:models\\profilecreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\profilesapi\\models\\birdprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|solutionrelative:models\\birdprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\profilesapi\\database\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|solutionrelative:database\\dbconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\profilesapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8D9D06AA-F3B8-20D4-15D4-15D369BD1DB9}|ProfilesAPI.csproj|c:\\users\\mel\\documents\\github\\3342_project_3\\plenty_of_finch\\profilesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,12 +24,12 @@
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,101 +40,8 @@
               "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProfileDatabaseConnection.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Database\\ProfileDatabaseConnection.cs",
-              "RelativeDocumentMoniker": "Database\\ProfileDatabaseConnection.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Database\\ProfileDatabaseConnection.cs",
-              "RelativeToolTip": "Database\\ProfileDatabaseConnection.cs",
-              "ViewState": "AgIAAPgAAAAAAAAAAAAWwI8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T22:26:45.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T15:59:00.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProfileUpdateRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Models\\ProfileUpdateRequest.cs",
-              "RelativeDocumentMoniker": "Models\\ProfileUpdateRequest.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Models\\ProfileUpdateRequest.cs",
-              "RelativeToolTip": "Models\\ProfileUpdateRequest.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAA9wE4AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T15:57:02.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProfileCreateRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Models\\ProfileCreateRequest.cs",
-              "RelativeDocumentMoniker": "Models\\ProfileCreateRequest.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Models\\ProfileCreateRequest.cs",
-              "RelativeToolTip": "Models\\ProfileCreateRequest.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAQwEsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-19T15:46:34.998Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BirdProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Models\\BirdProfiles.cs",
-              "RelativeDocumentMoniker": "Models\\BirdProfiles.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Models\\BirdProfiles.cs",
-              "RelativeToolTip": "Models\\BirdProfiles.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAnwIsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T22:27:29.838Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DBConnect.cs",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Database\\DBConnect.cs",
-              "RelativeDocumentMoniker": "Database\\DBConnect.cs",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Database\\DBConnect.cs",
-              "RelativeToolTip": "Database\\DBConnect.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T22:26:56.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-18T22:07:34.435Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -155,7 +49,79 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-18T22:02:28.886Z"
+              "WhenOpened": "2026-04-18T22:02:28.886Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfileUpdateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Models\\ProfileUpdateRequest.cs",
+              "RelativeDocumentMoniker": "Models\\ProfileUpdateRequest.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Models\\ProfileUpdateRequest.cs",
+              "RelativeToolTip": "Models\\ProfileUpdateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAnwBMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:35:36.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAowLAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T00:44:37.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.http",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Testing\\test.http",
+              "RelativeDocumentMoniker": "Testing\\test.http",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\GitHub\\3342_Project_3\\Plenty_of_Finch\\ProfilesAPI\\Testing\\test.http",
+              "RelativeToolTip": "Testing\\test.http",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwC8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-04-20T00:41:49.484Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "f1a32294-872a-4723-aee3-69a8f4734cf1",
+        "Display": 1,
+        "X": 122,
+        "Y": 32,
+        "Width": 1418,
+        "Height": 797,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProfileDataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\Mel\\Documents\\Claude Projects\\3342_Project_3\\Plenty_of_Finch\\ProfileAPI\\DataAccess\\ProfileDataAccess.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Claude Projects\\3342_Project_3\\Plenty_of_Finch\\ProfileAPI\\DataAccess\\ProfileDataAccess.cs",
+              "ToolTip": "C:\\Users\\Mel\\Documents\\Claude Projects\\3342_Project_3\\Plenty_of_Finch\\ProfileAPI\\DataAccess\\ProfileDataAccess.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Claude Projects\\3342_Project_3\\Plenty_of_Finch\\ProfileAPI\\DataAccess\\ProfileDataAccess.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T02:31:35.88Z",
+              "EditorCaption": ""
             }
           ]
         }

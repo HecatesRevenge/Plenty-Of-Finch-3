@@ -1,0 +1,233 @@
+[
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "GetAllProfiles",
+    "RelativePath": "api/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "state",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "commitment",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ageRange",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "wingspan",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "CreateProfile",
+    "RelativePath": "api/Profile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ProfilesAPI.Models.ProfileCreateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "GetProfile",
+    "RelativePath": "api/Profile/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "full",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Profile/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "ProfilesAPI.Models.ProfileUpdateRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "LogView",
+    "RelativePath": "api/Profile/{id}/logview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "viewerID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "GetViewCount",
+    "RelativePath": "api/Profile/{id}/viewcount",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "AddToNest",
+    "RelativePath": "api/Profile/addtonest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "targetID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "CheckAcceptedDate",
+    "RelativePath": "api/Profile/checkaccepteddate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "targetID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "CheckDateRequest",
+    "RelativePath": "api/Profile/checkdaterequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "senderID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "receiverID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "CheckInNest",
+    "RelativePath": "api/Profile/checkinnest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "targetID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProfilesAPI.Controllers.ProfileController",
+    "Method": "SendDateRequest",
+    "RelativePath": "api/Profile/daterequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "senderID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "receiverID",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

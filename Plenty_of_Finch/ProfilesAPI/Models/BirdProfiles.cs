@@ -29,7 +29,7 @@
         private string email;
         private string phoneNumber;
         private string homeAddress;
-        private int zipCode;
+
         public BirdProfiles()
         {
             birdID = 0;

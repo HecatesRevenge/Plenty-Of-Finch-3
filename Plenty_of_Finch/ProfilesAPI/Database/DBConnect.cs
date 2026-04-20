@@ -7,10 +7,10 @@ namespace ProfileAPI.DataAccess
     public class DBConnect
     {
         // Main Connection String - used for the published web application and project submissions.
-        String SqlConnectString = "server=cis-mssql1.temple.edu;Database=sp26_3342_tus45674;User id=tus45674;Password=zaaf9Cae4x; TrustServerCertificate=true";
+        //String SqlConnectString = "server=cis-mssql1.temple.edu;Database=sp26_3342_tus45674;User id=tus45674;Password=zaaf9Cae4x; TrustServerCertificate=true";
 
         // Home Connection String - used for working from home using SSH Tunneling.
-        //String SqlConnectString = "server=127.0.0.1,5555;Database=sp26_3342_tus45674;User id=tus45674;Password=zaaf9Cae4x; TrustServerCertificate=true";
+        String SqlConnectString = "server=127.0.0.1,5555;Database=sp26_3342_tus45674;User id=tus45674;Password=zaaf9Cae4x; TrustServerCertificate=true";
 
         SqlConnection myConnectionSql;
         SqlCommand objCmd;

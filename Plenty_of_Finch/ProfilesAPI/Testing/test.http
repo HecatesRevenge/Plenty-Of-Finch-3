@@ -1,0 +1,48 @@
+### Create a new profile
+POST https://localhost:7241/api/profile
+Content-Type: application/json
+
+{
+    "BirdID": "50"",
+    "Biography": "Test bio",
+    "ProfileImage": "",
+    "Species": "Finch",
+    "Wingspan": "Small",
+    "CommitmentType": "Long-Term",
+    "Goals": "Find a nest-mate",
+    "State": "PA",
+    "Wingspan": "11inch",
+    "Plumage": "Golden",
+    "ageRange": "18-25",
+    "commitment":"Seed Guzzler",
+    "Occupation": "Seed Collector",
+    "FavoriteSeed": "Sunflower",
+    "IsVisible": true
+}
+
+### Update an existing profile
+PUT https://localhost:7241/api/profile/1
+Content-Type: application/json
+
+{
+    "Biography": "Updated bio",
+    "ProfileImage": "",
+    "Species": "Sparrow",
+    "Wingspan": "Medium",
+    "CommitmentType": "Casual",
+    "Goals": "Just looking",
+    "Plumage": "Brown",
+    "AgeRange": "25-30",
+    "Occupation": "Worm Hunter",
+    "FavoriteSeed": "Millet",
+    "IsVisible": true
+}
+
+### Add bird to nest
+POST https://localhost:7241/api/profile/addtonest?userID=1&targetID=2
+
+### Send date request
+POST https://localhost:7241/api/profile/daterequest?senderID=1&receiverID=2
+
+### Log a profile view
+POST https://localhost:7241/api/profile/1/logview?viewerID=2
