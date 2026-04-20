@@ -1,4 +1,6 @@
-﻿namespace Plenty_of_Finch.Helpers
+﻿using System.Collections.Generic;
+
+namespace Plenty_of_Finch.Helpers
 {
     public class StateList
     {

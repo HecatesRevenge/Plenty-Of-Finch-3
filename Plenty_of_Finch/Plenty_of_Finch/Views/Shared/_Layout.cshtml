@@ -29,7 +29,9 @@
                         <a class="nav-link px-3" asp-controller="Profile" asp-action="MyProfile">My Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link px-3" asp-controller="Login" asp-action="Login">Login</a>
+                        <a class="nav-link px-3" asp-controller="Register" asp-action="Register">Register</a>
+                    <li class="nav-item">
+                        <a class="nav-link" asp-controller="Login" asp-action="Login">Login</a>
                     </li>
                 </ul>
             </div>
@@ -53,6 +55,9 @@
                         <li><a asp-controller="Search" asp-action="Search">Search Flocks</a></li>
                         <li><a asp-controller="MyNest" asp-action="MyNest">My Nest</a></li>
                         <li><a asp-controller="Register" asp-action="Register">Register</a></li>
+                        <li>
+                            <a asp-controller="Login" asp-action="Login">Login</a>
+                        </li>
                         <li><a asp-controller="Profile" asp-action="MyProfile">Profile</a></li>
                     </ul>
                 </div>

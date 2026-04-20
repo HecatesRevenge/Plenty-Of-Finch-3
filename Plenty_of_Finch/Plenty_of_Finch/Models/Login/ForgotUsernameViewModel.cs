@@ -10,7 +10,7 @@
         private string errorMessage;
         private string successMessage;
 
-    }
+
 
         public ForgotUsernameViewModel()
         {
@@ -33,7 +33,7 @@
         public string SecurityQuestion
         {
             get { return securityQuestion; }
-            set {securityQuestion = value; }
+            set { securityQuestion = value; }
         }
 
         public string SecurityAnswer
